@@ -36,6 +36,8 @@ interface BattlefieldInterface {
    *   The number
    * @param \Galoa\ExerciciosPhp2022\War\GamePlay\Country\CountryInterface $defendingCountry
    *   The country that is defending from the attack.
+   * @param int[] $defendingDice
+   *   The number
    */
   public function computeBattle(CountryInterface $attackingCountry, array $attackingDice, CountryInterface $defendingCountry, array $defendingDice): void;
 
