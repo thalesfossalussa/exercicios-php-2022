@@ -28,5 +28,5 @@ composer webscrapping
 
 Duas ferramentas vão ser especialmente úteis para você resolver este exercício.
 
-* DOM, para ler o HTML - https://www.php.net/manual/pt_BR/class.domdocument.php
-* Spout, para escrever a planilha - https://opensource.box.com/spout/
+* [DOM, para ler o HTML](https://www.php.net/manual/pt_BR/class.domdocument.php)
+* [Spout, para escrever a planilha](https://opensource.box.com/spout/)
