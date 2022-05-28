@@ -5,7 +5,6 @@ namespace Galoa\ExerciciosPhp2022\War\GameManager;
 use Galoa\ExerciciosPhp2022\War\GamePlay\Battlefield;
 use Galoa\ExerciciosPhp2022\War\GamePlay\BattlefieldInterface;
 use Galoa\ExerciciosPhp2022\War\GamePlay\Country\ComputerPlayerCountry;
-use Galoa\ExerciciosPhp2022\War\GamePlay\Country\HumanPlayerCountry;
 
 /**
  * Defines a Game, it holds the players and interacts with the UI.

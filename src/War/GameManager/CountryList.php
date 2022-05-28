@@ -3,7 +3,6 @@
 namespace Galoa\ExerciciosPhp2022\War\GameManager;
 
 use Galoa\ExerciciosPhp2022\War\GamePlay\Country\ComputerPlayerCountry;
-use Galoa\ExerciciosPhp2022\War\GamePlay\Country\HumanPlayerCountry;
 
 /**
  * Creates a list of countries for the game.
@@ -28,13 +27,8 @@ class CountryList {
 
     $countries = [];
     foreach (array_keys($map) as $index => $name) {
-      if ($index) {
-        $countries[$name] = new ComputerPlayerCountry($name);
-        readline_add_history($name);
-      }
-      else {
-        $countries[$name] = new HumanPlayerCountry($name);
-      }
+      $countries[$name] = new ComputerPlayerCountry($name);
+      readline_add_history($name);
     }
 
     foreach ($map as $name => $neighborNames) {
