@@ -10,7 +10,7 @@ Dependências:
 
 * PHP - linha de comando
 * Extensões do PHP: ZIP, DOM, XML
-* [Composer](https://getcomposer.org/)
+* [Composer](https://getcomposer.org/download)
 
 Rode o seguinte comando para instalar o ambiente:
 
